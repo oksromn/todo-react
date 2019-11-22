@@ -1,22 +1,77 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
 }
 
 .App-link {
-  color: #09d3ac;
+    color: #09d3ac;
+}
+
+.records {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+}
+
+.lispan {
+    padding-right: 10px;
+}
+
+.add-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.MuiButtonBase-root {
+    color: white !important;
+}
+
+.MuiGrid-item {
+    margin: auto !important;
+}
+
+.todo-item {
+    width: 50%;
+    margin: 12px auto;
+}
+
+.check {
+    text-align: left;
+}
+
+.MuiInputLabel-root {
+    color: white !important;
+}
+
+.MuiInput-underline:before {
+    border-bottom-color: white !important;
+}
+
+.MuiInput-underline:after {
+    border-bottom-color: #09d3ac !important;
+}
+
+.MuiInput-input {
+    color: white !important;
+}
+
+.MuiTextField-root {
+    width: 20em !important;
+}
+
+.all-todo {
+    margin-top: 3em;
+}
+
+.date {
+    text-align: center;
+}
+
+.MuiPaper-root {
+    color: white !important;
+}
+
+.item {
+    text-align: left;
 }
